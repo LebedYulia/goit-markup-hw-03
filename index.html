@@ -10,22 +10,23 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body class="page">
+
     <!-- Шапка сайта -->
-    <header class="page header">
-      <div class="container">
-      <nav>
+    <header class="page-header">  
+      <div class="page-header container">    
+      <nav class="site-nav">
         <a href="./index.html" class="logo">Web<span class="studio-black">Studio</span></a>
         <ul class="site-nav list">
-          <li><a class="link current" href="./index.html">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <li class="item"><a class="link current" href="./index.html">Студия</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li class="item"><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </div>
+        <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>  
+    </div>     
     </header>
 
     <!-- Основная часть -->
@@ -35,28 +36,28 @@
       <section class="hero">
         <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="order pointer" type="button">Заказать услугу</button>
+            <button class="primary pointer" type="button">Заказать услугу</button>
         </div>
       </section>
 
       <!--Преимущества-->
       <section class="section"> 
         <div class="container">
-        <h2 class="section-title">Наши преимущества</h2>
+        <h2 class="section-title visually-hidden">Наши преимущества</h2>
         <ul class="features list">
-          <li>
+          <li class="item">
             <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-title">Пунктуальность</h3>
             <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-title">Планирование</h3>
             <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-title">Современные технологии</h3>
             <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
@@ -65,19 +66,19 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="section">
+      <section class="section no-padding">
         <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="specialism list">
-          <li><img src="./images/box1.jpg" alt="крупный план програмиста, работающего за своим столом в офисе" width="370" /></li>
-          <li><img src="./images/box2.jpg" alt="веб дизайнер работает над интерфейсом приложения для смартфона" width="370" /></li>
-          <li><img src="./images/box3.jpg" alt="веб дизайнер работает с цветовой палитрой на планшете" width="370" /></li>
-        </ul>
+        <ul class="description list">
+          <li class="item"><img src="./images/box1.jpg" alt="крупный план програмиста, работающего за своим столом в офисе" width="370" /></li>
+          <li class="item"><img src="./images/box2.jpg" alt="веб дизайнер работает над интерфейсом приложения для смартфона" width="370" /></li>
+          <li class="item"><img src="./images/box3.jpg" alt="веб дизайнер работает с цветовой палитрой на планшете" width="370" /></li>
+        </ul> 
       </div>
       </section>
 
       <!--Команда-->
-      <section class="section">
+      <section class="section team">
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team list">
@@ -85,8 +86,8 @@
             <img src="./images/demjanenko.jpg" alt="Игорь Демьяненко" width="270" />
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="team-position">Product Designer</p>
-          </li class="team-card">
-          <li>
+          </li>
+          <li class="team-card">
             <img src="./images/repina.jpg" alt="Ольга Репина" width="270" />
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-position">Frontend Developer</p>
